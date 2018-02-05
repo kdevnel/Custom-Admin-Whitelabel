@@ -17,3 +17,9 @@
  * Domain Path:       /languages
  */
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
+/**
+* Include any necessary files
+*/
+require_once plugin_dir_path( __FILE__ ) . '/includes/admin.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/public.php';

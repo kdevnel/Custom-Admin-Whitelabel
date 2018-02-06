@@ -19,6 +19,11 @@
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 /**
+* Define Constants
+*/
+define( 'MY_PLUGIN_PATH', plugin_dir_url( __FILE__ ) );
+
+/**
 * Include any necessary files
 */
 require_once plugin_dir_path( __FILE__ ) . '/includes/admin.php';

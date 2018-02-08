@@ -7,7 +7,7 @@
  * @wordpress-plugin
  * Plugin Name:       Custom Admin Whitelabel
  * Plugin URI:        https://devnel.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       A plugin to allow simple customisations of the admin area
  * Version:           1.0.0
  * Author:            Kyle Nel
  * Author URI:        https://devnel.com
@@ -21,10 +21,10 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 /**
 * Define Constants
 */
-define( 'MY_PLUGIN_PATH', plugin_dir_url( __FILE__ ) );
+define( 'CAW_PLUGIN_PATH', plugin_dir_url( __FILE__ ) );
 
 /**
 * Include any necessary files
 */
-require_once plugin_dir_path( __FILE__ ) . '/includes/admin.php';
-require_once plugin_dir_path( __FILE__ ) . 'includes/public.php';
+require_once plugin_dir_path( __FILE__ ) . '/admin/admin.php';
+require_once plugin_dir_path( __FILE__ ) . '/public/public.php';

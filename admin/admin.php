@@ -4,6 +4,11 @@
 */
 
 /**
+* Include all admin files
+*/
+require_once plugin_dir_path( dirname(__FILE__) ) . '/admin/color-picker.php';
+
+/**
 * Add new menus
 */
 function create_caw_admin_page(){

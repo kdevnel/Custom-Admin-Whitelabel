@@ -30,7 +30,7 @@ function caw_login_page(){
     if( isset( $login_options['custom_login_logo'] ) ? $login_options['custom_login_logo'] : 0 ){
       $outputCSS .= '
         #login h1 a, .login h1 a {
-          background-image: url(' . MY_PLUGIN_PATH . 'images/default-login-logo.png);
+          background-image: url(' . CAW_PLUGIN_PATH . 'images/default-login-logo.png);
           height:65px;
           width:320px;
           background-size: 320px 65px;
